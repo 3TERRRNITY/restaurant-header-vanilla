@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla Header</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="header__container">
+            <div class="header__navigation" id="navigation">
+                <ul>
+                    <li><a href="#">Меню</a></li>
+                    <li><a href="#">Мероприятия</a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Галерея</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header__logo" id="header-logo">Logo</div>
+        <div class="header__mobile-language-select">
+            <div class="language-select" id="current-language">
+               RU
+            </div>
+            <div class="language-options" id="language-options">
+               <div class="language-option" data-lang="ru">RU</div>
+               <div class="language-option" data-lang="en">EN</div>
+               <div class="language-option" data-lang="ar">AR</div>
+               <div class="language-option" data-lang="ch">CH</div>
+            </div>
+         </div>
+
+        <div class="header__right">
+            <button class="header__button">ЗАБРОНИРОВАТЬ</button>
+            <div class="header__phone">+7 (495) 225-81-81</div>
+            <button class="header__language-button" id="language-toggle">English</button>
+         </div>
+
+         <button class="header__burger-button" id="burger-menu">
+            <span class="header__burger-bar"></span>
+            <span class="header__burger-bar"></span>
+            <span class="header__burger-bar"></span>
+        </button>
+         
+        <div class="header__mobile-menu" id="mobile-menu">
+            <ul>
+                <li><a href="#">Меню</a></li>
+                <li><a href="#">Мероприятия</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Галерея</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><button class="header__button header__mobile_button">ЗАБРОНИРОВАТЬ</button></li>
+                <li><div class="header__mobile_phone">+7 (495) 225-81-81</div></li>
+                <li><button class="header__mobile_language-button" id="mobile-language-toggle">English</button></li>
+            </ul>
+        </div>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
